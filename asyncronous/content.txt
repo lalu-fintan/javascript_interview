@@ -1,0 +1,13 @@
+if we call the api ,we don't know how much time it will take time.
+
+
+javascript contain two parts ,
+
+1.heap -where the memory allocation happen
+2.call stack  - single thread,like onece the condition or request fullfiled ,it throw the data to the client.
+
+
+like ,if you request the get API to to see all the data from the server ,the request go to the cal stack, stack send the request in the server , once the request is fullfiled, it give the response data to the client.
+
+
+but In the asyncronous  

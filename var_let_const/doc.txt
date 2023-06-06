@@ -1,0 +1,11 @@
+var-let-const -It's a temproarylocation for stored our value.
+
+rules:
+
+1.don't use thekey words (if,for,while)
+2.and don't start with numbers.
+3.don't use - and space ,alternativly we can use _ or camelCase.
+4.javascript is casesensitive.
+
+
+var -Its a old way of storing our values.And global scope.
