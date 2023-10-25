@@ -1,0 +1,28 @@
+1.difference between function declaration and function expression?
+
+* the main difference is hoisting,if we call the declaration function  before that function declaration, it will work,because it's hoited. 
+But expressionthrow typeError,because it is not hoited.
+
+* then declaration function need a function name, but the function expression we don't need a function name , just declare the function in variable
+
+2.what is anonymous function ? when we use?
+ anonymous function is same like function statement , but without the function name.
+
+ use: 
+   * when we used the function as value,like IIF(imidiate invoked function)
+   * when we want to pass a function as parameter for another function,like setTimeout
+
+
+
+3.difference between parameter and argument?
+* parameter : formal parameters in function definition . they are declared inside the parentheses of a function.
+* argument : actual values passed while calling the function
+
+
+4.how can i call an anonymous function immediately after its declaration?
+use immediate invocation function (IIFE),it is a self-invoking function which will be called as soon as it is defined.
+
+
+5.what is first -class-function or   first-class-citizen ?
+ Assigned to variables: Functions can be stored in variables, making them easily accessible and re-usable.
+ * Ability to use the create a value and passed as a argument to the another function return from the function. this is first class function.

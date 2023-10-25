@@ -1,0 +1,7 @@
+will see how the javascript works on node ?
+
+
+nodejs its 50% js and 50% C++,like node have a collection of depentancies,but 2 will see the 2 importent depentancies
+
+1.v8 -it js engine for chrome developed by google it will use ,to run the code outside of the browser 
+2.libuv -C++ open source project , It give the access to os and file systems and networking

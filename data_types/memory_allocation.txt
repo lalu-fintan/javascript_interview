@@ -1,0 +1,33 @@
+
+
+we difind two diffrent type of data types:
+
+1.primitive -string,number,boolean,null,undifined,bigint
+2.refrence - array ,object and functions
+
+
+* if we declare any primitive data type it directly goes to the stack.
+* for refrence data type firstly it will go to heap memory then reference variable will pointer towards that location in stack.
+
+
+
+example:
+
+primitive:
+
+let a=100
+let b=a
+b=200
+
+
+Here we asign the a 's value  the b but I change the b value, so it so the value will change,because the two variables are stored in seprate location in the stack.
+
+let user={
+    name:"lalu",
+    age:34,
+}
+
+let user2=user
+
+Here the object store into the heap, if we asign the user object data in user2 , the location pointer show the location ,
+which means , if i change anything in user it will reflect in user2 also.

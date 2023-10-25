@@ -1,0 +1,7 @@
+
+
+
+event loop it like a infinit while loop , when we use the npm start the event loop will trigger automatically.
+
+
+

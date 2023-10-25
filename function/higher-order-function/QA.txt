@@ -1,0 +1,20 @@
+1. Higher-order-function ?
+ A function takes another function as a argument or return the function from the result.Higher order function also possible because of first-class-function.
+ And It work like a mathematical gentral.
+
+2.first-class-function or first-class-citizen ?
+ It's treated like a variable , it can Assign any other variable or assign as a argument or can return by the another function
+
+
+ realtime example:
+
+ one function takes the another function in the two diffrent methods. 
+
+
+ 1. As a argument - like a callBack function. like if we use this function and also do some new logic work in diffrent diffrent scenorios
+
+ex:
+  if we use one function for get the data from the database , then that function work on one page like show the data like a alert message,and then another page ,it work like show the success message.something like that.
+
+
+ 2. return the function

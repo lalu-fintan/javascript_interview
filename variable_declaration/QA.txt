@@ -1,0 +1,66 @@
+main diffrence is scope .
+
+what is scope?
+
+it a Avilablity of variable and obeject , functions.which means if we declare the one variable globaly ,I can access anyware in the code.
+but If I declare the variable in the one functions or any block,I can access the variable only in inside of the functions or block.
+
+types:
+  *Global scope
+  * Local scope or block scope
+  * Functional Scope
+
+
+2. var,let  and const ?
+
+var - Global scope
+let,const -block Scope
+
+
+3.temporal dead zone?
+
+* temporal dead zone is like a time zone,  it refers to the whic variable is not used yet. means it working between the variable initialization and declartion.
+
+* Temporal Dead Zone (TDZ) refers to the period of time during which a variable declared using let keyword cannot be accessed before its declaration.
+
+* If we declare the variable with var keyword  before calling it showing undifiend by default, but in let and const throwing reference error ,because of temporal dead zone.
+
+* it's fully working on block scope.
+
+* avoid the TDZ : always call the variable and function after the initialization.
+
+
+
+4. diffrence between syntax error ,type error and reference error ?
+
+ * syntax Error -  if we redeclare the block scope variable or const later initialization ,it will throw the syntax error.
+
+ ex:
+ 1.
+    let a=10
+    let a=20 //syntax error
+
+ 2. const c;
+    c=200 //throw syntax error
+
+ * type Error - if we declare and initialize the  const variable ,then again we try to change the const  variable value, it will throw type Error
+
+ ex:
+
+ const n=2000
+ n=30000 //type error
+
+
+
+ * reference Error -  if we call the variable or functions before initialization, it will throw the reference error and also if we called any variable or functions ,but it not avilable in the code throw reference error,like hoisting (TDZ), it will work only on Local scope.
+
+ console.log(b)
+ let b=10 //reference error
+
+ console.log(a)
+ var a=10 //undifiend
+
+ console.log(m)//reference error
+
+
+

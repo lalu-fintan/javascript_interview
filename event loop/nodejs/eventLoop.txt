@@ -1,0 +1,15 @@
+event loop -It is a architecture ,which means javascript handle the thousand of request just in single thread.
+
+here we have 3 things callstack ,callBack queue and microqeue.
+1. Call Stack : It is a machanism for to track our function.and check that function call any other function ,it like LIFO method.and  imidiate invoke function only  on stack means imidiately it throw the output.
+then if the function will execute automatically It will remove to the stack
+2.task queue -  it is like a FIFO.the  call back queue store the delaied function.whenthe stack is empty the queue datas will goes to the stack 
+3.microTask - It is used for API calling ,in that api ,it doesn't give the imidiate out ,so the api function goes to the microTask,js check stack is empty or not ,if it is empty microTask send the function to the stack,stack will execute the task and automatically remove the function to the stack .
+and then it will add in callback queue,if not it will be added into Microqueue
+
+
+
+eventloop check the taskqueue and microTaskqeue if any data is avilable in that queue ,it send to the call stack.
+
+
+micro queue have a first priarity when the data is avilable in both queue , so the event loop check first the microqeue.
